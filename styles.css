@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5%;
+}
+
+button {
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    padding: 12px;
+}
+
+#reset-btn {
+    background-color: green;
+    padding: 25px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 1px;
+    display: block;
+    margin: auto;
+}
